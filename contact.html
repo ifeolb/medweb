@@ -67,6 +67,63 @@
             </div>
         </div>
         
+  <head>
+        <title>Title of the document</title>
+            <style>
+                input {
+                    padding: 5px;
+                    margin-bottom: 5px;
+                    outline: none;
+                }
+                form,
+                label {
+        margin: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="some placeholder" />
+      <input type="text" placeholder="some placeholder" />
+      <input type="text" placeholder="some placeholder" />
+      <input type="text" placeholder="some placeholder" />
+      <input type="text" placeholder="some placeholder" />
+      <input type="text" placeholder="some placeholder" />
+    </form>
+    <form>
+      First name:
+      <br>
+      <input type="text" name="fname">
+      <br> Last name:
+      <br>
+      <input type="text" name="lname">
+    </form>
+    <form>
+      <input type="radio" name="gender" value="male" checked> Male
+      <br>
+      <input type="radio" name="gender" value="female"> Female
+      <br>
+      <input type="radio" name="gender" value="other"> Other
+    </form>
+    <form>
+      <label for="field">Some form field</label>
+      <input id="field" type="text" name="name">
+    </form>
+    <form>
+      <label for="field1">Another form field</label>
+      <input id="field1" type="text" name="name">
+    </form>
+    <form>
+      <fieldset>
+        <legend>Question</legend>
+        <input type="radio" name="radio" id="radio">
+        <label for="radio">Variant 1</label>
+        <input type="radio" name="radio1" id="radio1">
+        <label for="radio1">Variant 2</label>
+      </fieldset>
+    </form>
+  </body>
+ 
         <div class="container">
             <form action="action_page.php">
 

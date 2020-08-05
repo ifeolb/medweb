@@ -1,8 +1,8 @@
-****View the website live and direct here:
+#### View the website live and direct here:
 
-https://ifeolb.github.io/medweb/
+# https://ifeolb.github.io/medweb/
 
-** Background:
+## Background:
 
 This Button2Web Project initially started with a raspberry pi Button. However, it took a turn when it was brought to my attention that I actually did not need a button at all. I could simply create a check-in form that emails the information to the correct destination. This is demonstrated on the webserver I created using Github Pages. 
 
